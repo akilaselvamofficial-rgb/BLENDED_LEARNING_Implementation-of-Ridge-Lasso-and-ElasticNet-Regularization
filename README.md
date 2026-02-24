@@ -83,17 +83,6 @@ RegisterNumber: 212225220008
 ## Output:
 
 <img width="809" height="89" alt="Screenshot 2026-02-24 132346" src="https://github.com/user-attachments/assets/fed3f352-702b-4221-8ef4-9d069056727c" />
-
-
-<img width="356" height="84" alt="Screenshot 2026-02-24 132442" src="https://github.com/user-attachments/assets/17d4ad5b-3bdd-4411-a8bf-263310c32af0" />
-
-
-
-
-
-
-
-
 <img width="441" height="670" alt="Screenshot 2026-02-24 132519" src="https://github.com/user-attachments/assets/49819e3d-00b3-465c-a0aa-c1d7905bc20f" />
 <img width="528" height="607" alt="Screenshot 2026-02-24 132534" src="https://github.com/user-attachments/assets/e0ad7e21-0db9-4a7b-8135-de314284b7a5" />
 
