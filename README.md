@@ -20,6 +20,12 @@ To implement Ridge, Lasso, and ElasticNet regularization models using polynomial
 ## Program:
 ```
 /*
+
+/*
+Program to implement Ridge, Lasso, and ElasticNet regularization using pipelines.
+Developed by: AKILA S
+RegisterNumber:  212225220008
+*/
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,8 +61,6 @@ mse=mean_squared_error(y_test,predictions)
 mae=mean_absolute_error(y_test,predictions)
 r2=r2_score(y_test,predictions)
 results[name]={'MSE':mse,'MAE':mae,'R2 Score':r2}
-print('Name: AKILA S')
-print('Reg. No:212225220008')
 for model_name,metrics in results.items():
     print(f"{model_name} -Mean Squared Error: {metrics['MSE']:.2f},R2 Score: {metrics['R2 Score']:.2f},Mean Absolute Error: {metrics['MAE']:.2f}")
 results_df=pd.DataFrame(results).T
@@ -75,16 +79,15 @@ plt.ylabel('R2 Score')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
-Developed by: AKILA S
-RegisterNumber: 212225220008 
 */
 ```
 
 ## Output:
 
-<img width="809" height="89" alt="Screenshot 2026-02-24 132346" src="https://github.com/user-attachments/assets/fed3f352-702b-4221-8ef4-9d069056727c" />
-<img width="441" height="670" alt="Screenshot 2026-02-24 132519" src="https://github.com/user-attachments/assets/49819e3d-00b3-465c-a0aa-c1d7905bc20f" />
-<img width="528" height="607" alt="Screenshot 2026-02-24 132534" src="https://github.com/user-attachments/assets/e0ad7e21-0db9-4a7b-8135-de314284b7a5" />
+<img width="445" height="89" alt="image" src="https://github.com/user-attachments/assets/02495b4b-d7a4-4969-91cb-937e10916a2a" />
+<img width="786" height="713" alt="image" src="https://github.com/user-attachments/assets/1024e457-30dd-41d0-b83f-cf20a34b39e3" />
+<img width="560" height="599" alt="image" src="https://github.com/user-attachments/assets/f42e3054-bf9c-4937-b1a8-71ca17a9606b" />
+
 
 
 
